@@ -15,8 +15,6 @@ This project performs a complete **end-to-end Exploratory Data Analysis (EDA)** 
 
 The goal is to uncover patterns, trends, and key insights from Kohli's 132 innings — including his run-scoring habits, strike rate trends, dismissal patterns, boundary analysis, and performance across different oppositions and venues.
 
-> **"Numbers don't lie — and Kohli's numbers tell the story of one of cricket's greatest ever ODI batsmen."**
-
 ---
 
 ##  Questions This Project Answers
@@ -45,33 +43,6 @@ The goal is to uncover patterns, trends, and key insights from Kohli's 132 innin
 |  **Most Common Dismissal** | Caught |
 |  **Fixed Batting Position** | No. 3 |
 |  **Highest Score in Dataset** | 154 (Inns 2) |
-
----
-
-## Project Structure
-
-```
-virat-kohli-odi-analysis/
-│
-├── 📂 data/
-│   └── Virat Kohli DataSet.csv          # Raw dataset (132 ODI innings)
-│
-├── 📂 notebooks/
-│   └── virat_kohli.ipynb                # Main Jupyter Notebook (EDA)
-│
-├── 📂 charts/
-│   ├── runs_distribution.png            # Histogram of runs scored
-│   ├── sr_vs_innings.png                # Strike rate by innings type
-│   ├── dismissal_pattern.png            # Dismissal type bar chart
-│   ├── boundary_analysis.png            # 4s and 6s comparison
-│   ├── runs_by_opposition.png           # Avg runs vs each team
-│   ├── innings_position_bar.png         # Batting position chart
-│   └── yearly_avg_runs.png              # Year-wise run average trend
-│
-├── 📄 README.md                         # Project documentation (this file)
-└── 📄 requirements.txt                  # Python dependencies
-```
-
 ---
 
 ## Dataset Description
@@ -149,42 +120,15 @@ virat-kohli-odi-analysis/
 ```
 Python 3.12
 ├── pandas          — data manipulation & cleaning
-├── numpy           — numerical operations
 ├── matplotlib      — base plotting library
 ├── seaborn         — statistical visualizations
 └── jupyter         — interactive notebook environment
 ```
 
----
-
-## How to Run This Project
-
-### Step 1 — Clone the Repository
-```bash
-git clone https://github.com/YOUR_USERNAME/virat-kohli-odi-analysis.git
-cd virat-kohli-odi-analysis
-```
-
-### Step 2 — Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### Step 3 — Launch Jupyter Notebook
-```bash
-jupyter notebook notebooks/virat_kohli.ipynb
-```
-
-### Step 4 — Run All Cells
-In Jupyter: **Kernel → Restart & Run All**
-
----
-
 ## requirements.txt
 
 ```
 pandas==2.1.0
-numpy==1.25.0
 matplotlib==3.7.2
 seaborn==0.12.2
 jupyter==1.0.0
