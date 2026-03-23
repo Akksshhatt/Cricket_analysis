@@ -145,8 +145,3 @@ jupyter==1.0.0
 <img width="1458" height="614" alt="Screenshot (58)" src="https://github.com/user-attachments/assets/24de7e06-91d9-41ee-add6-c60b3ad565bd"/>
 ---
 
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
