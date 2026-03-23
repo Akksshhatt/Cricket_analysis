@@ -137,25 +137,12 @@ jupyter==1.0.0
 ## Screenshots
 
 <!-- Replace paths below with your actual chart screenshots -->
-| Chart | Preview |
-|---|---|
+
 <img width="1039" height="703" alt="Screenshot (57)" src="https://github.com/user-attachments/assets/fa55a291-72aa-4df4-a5fe-42e8269e9339" />
 
 <img width="791" height="628" alt="Screenshot (59)" src="https://github.com/user-attachments/assets/6bd1e972-ffdf-476b-8859-abee5df065d7" />
 
 <img width="1458" height="614" alt="Screenshot (58)" src="https://github.com/user-attachments/assets/24de7e06-91d9-41ee-add6-c60b3ad565bd"/>
-
----
-
-## Future Improvements
-
-- [ ] Add Test and T20 data for format comparison
-- [ ] Year-wise trend line for peak performance years
-- [ ] Correlation heatmap (Runs vs SR vs BF)
-- [ ] Compare with other top ODI batsmen (Rohit, Sachin, AB de Villiers)
-- [ ] Build an interactive dashboard using Plotly or Streamlit
-- [ ] Predict score based on opposition and venue using ML
-
 ---
 
 ## License
