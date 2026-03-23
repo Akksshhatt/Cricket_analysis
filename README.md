@@ -118,7 +118,6 @@ The goal is to uncover patterns, trends, and key insights from Kohli's 132 innin
 ## Tech Stack
 
 ```
-Python 3.12
 ├── pandas          — data manipulation & cleaning
 ├── matplotlib      — base plotting library
 ├── seaborn         — statistical visualizations
