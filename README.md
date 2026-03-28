@@ -1,5 +1,5 @@
 #  Virat Kohli ODI Performance Analysis (2008–2017)
-
+![Numpy](https://img.shields.io/badge/Numpy-150458?style=for-the-badge&logo=Numpy&logoColor=blue)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
@@ -126,10 +126,11 @@ The goal is to uncover patterns, trends, and key insights from Kohli's 132 innin
 ## requirements.txt
 
 ```
-pandas==2.1.0
-matplotlib==3.7.2
-seaborn==0.12.2
-jupyter==1.0.0
+pandas
+Numpy
+matplotlib
+seaborn
+jupyter
 ```
 
 ---
