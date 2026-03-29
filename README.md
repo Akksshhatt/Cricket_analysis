@@ -27,96 +27,10 @@ The goal is to uncover patterns, trends, and key insights from Kohli's 132 innin
 - What is the trend of his performance over the years?
 - At which batting position does he perform best?
 
----
-
-## Key Findings & Insights
-
-| Insight | Finding |
-|---|---|
-|  **Average Runs** | 46.85 per innings |
-|  **Average Strike Rate** | 76.99 |
-|  **Median Score** | 32.50 |
-|  **Total 4s Hit** | 577 |
-|  **Total 6s Hit** | 72 |
-|  **Best Innings Type** | Inns 2 (Chasing) — highest SR of 192.30 |
-|  **Most Common Dismissal** | Caught |
-|  **Fixed Batting Position** | No. 3 |
-|  **Highest Score in Dataset** | 154 (Inns 2) |
----
-
-## Dataset Description
-
-**File:** `Virat Kohli DataSet.csv`
-**Shape:** 132 rows × 11 columns
-**Period:** August 2008 — January 2017
-
-| Column | Data Type | Description |
-|---|---|---|
-| `Runs` | int64 | Runs scored in that innings |
-| `BF` | int64 | Balls faced |
-| `4s` | int64 | Number of fours hit |
-| `6s` | int64 | Number of sixes hit |
-| `SR` | float64 | Strike rate |
-| `Positions` | float64 | Batting position (1–5) |
-| `Dismissal` | object | How he got out (caught, lbw, etc.) |
-| `Inns` | int64 | 1st innings or 2nd innings |
-| `Opposition` | object | Team played against |
-| `Ground` | object | Venue/stadium name |
-| `Start Date` | datetime64 | Date of the match |
-
-**Data Quality:** ✅ No missing values · ✅ No duplicates · ✅ Clean dataset
-
----
-
-## Analysis Sections
-
-### 1. Data Cleaning & Preprocessing
-- Renamed `Pos` → `Positions` for clarity
-- Converted `Start Date` from `object` → `datetime64`
-- Verified zero null values across all 11 columns
-- Confirmed no duplicate rows in dataset
-
-### 2. Descriptive Statistics
-- Calculated mean, median, and mode for Runs, SR, and BF
-- Mean Runs (46.85) > Median (32.50) → confirms right-skewed distribution
-- Mode of Runs = 0 → multiple duck innings show high variance
-
-### 3. Run Distribution Analysis
-- Histogram reveals majority of scores fall in the 0–50 range
-- Right-skewed distribution with long tail towards centuries
-- Big scores rare but extremely impactful on overall average
-
-### 4. Strike Rate Analysis
-- Strike rate sorted and compared by innings type
-- Inns 2 (chasing): SR as high as **192.30**
-- Inns 1 (setting): more conservative, lower SR
-- Strong evidence of Kohli being an elite **chase specialist**
-
-### 5. Innings Performance Comparison
-- Highest scores (154, 139, 136, 128, 123) all in **Inns 2**
-- Multiple ducks appear more in Inns 1
-- 2nd innings performance statistically superior in every metric
-
-### 6. Dismissal Pattern
-- **Caught** is the most common dismissal by far
-- LBW second, Bowled third, Run Out very rare
-- Bowlers consistently target outside edge and aerial shots
-
-### 7. Boundary Analysis
-- **577 fours** vs **72 sixes** → 8:1 ratio
-- Kohli relies on timing and placement over power
-- Technically correct ground-stroke batsman profile confirmed
-
-### 8. Batting Position Analysis
-- Consistently bats at **Position 3** throughout career
-- Some early career appearances at Positions 1 and 2
-- Locked in at No.3 from mid-career — never moved
-
----
-
 ## Tech Stack
 
 ```
+├── numpy           — numerical computations & array operations
 ├── pandas          — data manipulation & cleaning
 ├── matplotlib      — base plotting library
 ├── seaborn         — statistical visualizations
@@ -132,9 +46,50 @@ matplotlib
 seaborn
 jupyter
 ```
+## Analysis Sections
+
+**1. Data Cleaning and Pre-processing**
+Renaming columns, checking for null values, correcting data types, and extracting the year from match dates.
+
+**2. Descriptive Analysis**
+Distribution of runs scored across all matches visualized using a histogram to understand scoring frequency.
+
+**3. Performance Trends**
+Line plots tracking runs scored and strike rate over time to identify periods of high and low performance.
+
+**4. Positional Analysis**
+Grouping performance metrics by batting position to identify the most and least productive positions.
+
+**5. Innings Analysis**
+Comparing runs and strike rate between the 1st and 2nd innings using grouped averages and box plots.
+
+**6. Opponent Analysis**
+Bar plots and average statistics showing performance against each opposition team, identifying strongest and weakest matchups.
+
+**7. Venue Analysis**
+Aggregating total runs and average strike rate by ground to determine the best and worst performing venues.
+
+**8. Dismissal Analysis**
+Frequency and percentage breakdown of dismissal types, along with a time-series plot of dismissal patterns.
+
+**9. Boundary Analysis**
+Year-wise and opponent-wise breakdown of fours and sixes, including a combined boundary count feature.
+
+**10. Advanced Insights**
+Statistical comparison of batting positions across innings to detect any structural performance differences.
 
 ---
 
+## Key Findings
+
+- The majority of innings result in scores below 40 runs, though several centuries demonstrate the capacity for high-impact performances.
+- Strike rate fluctuates significantly across matches, reflecting an aggressive but inconsistent batting approach.
+- Performance in the 2nd innings is marginally stronger than in the 1st innings in both runs and strike rate.
+- The highest boundary count was recorded against Sri Lanka; the lowest against Pakistan.
+- Wellington was the strongest venue by runs scored; Adelaide the weakest.
+- Caught dismissals are the most frequent mode of getting out, with no clear time-based pattern.
+- 2011 saw the highest number of fours; 2013 and 2014 had the highest number of sixes.
+---
 ## Screenshots
 
 <!-- Replace paths below with your actual chart screenshots -->
