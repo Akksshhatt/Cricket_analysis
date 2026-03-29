@@ -91,12 +91,8 @@ Statistical comparison of batting positions across innings to detect any structu
 ---
 ## Screenshots
 
-<!-- Replace paths below with your actual chart screenshots -->
+<img width="1179" height="783" alt="Screenshot (63)" src="https://github.com/user-attachments/assets/62d6ad70-b22b-40ff-814c-83d129f31729" />
+<img width="1234" height="768" alt="Screenshot (64)" src="https://github.com/user-attachments/assets/64bcc1c4-15a5-4c3b-bf7e-c4e7e01ab3c2" />
+<img width="1376" height="692" alt="Screenshot (65)" src="https://github.com/user-attachments/assets/5e2dada7-35b7-435c-a0dc-d4eaa28d75bf" />
 
-<img width="1039" height="703" alt="Screenshot (57)" src="https://github.com/user-attachments/assets/fa55a291-72aa-4df4-a5fe-42e8269e9339" />
-
-<img width="791" height="628" alt="Screenshot (59)" src="https://github.com/user-attachments/assets/6bd1e972-ffdf-476b-8859-abee5df065d7" />
-
-<img width="1458" height="614" alt="Screenshot (58)" src="https://github.com/user-attachments/assets/24de7e06-91d9-41ee-add6-c60b3ad565bd"/>
----
-
+<img width="964" height="721" alt="Screenshot (66)" src="https://github.com/user-attachments/assets/586501b0-fb00-4db6-ab4c-abf49c9d8fbe" />
