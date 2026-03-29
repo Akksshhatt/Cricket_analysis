@@ -18,7 +18,6 @@ The goal is to uncover patterns, trends, and key insights from Kohli's 132 innin
 
 ##  Questions This Project Answers
 
-- What is Kohli's average, median and most frequent score?
 - Does he perform better while chasing (Inns 2) or setting a target (Inns 1)?
 - Which teams does he score the most against?
 - How does his strike rate vary across innings?
