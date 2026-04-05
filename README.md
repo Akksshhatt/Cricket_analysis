@@ -7,92 +7,89 @@
 ![Status](https://img.shields.io/badge/Status-Completed-00cc44?style=for-the-badge)
 
 ---
+# Virat Kohli Cricket Performance Analysis
 
-##  Project Overview
-
-This project performs a complete **end-to-end Exploratory Data Analysis (EDA)** on Virat Kohli's ODI (One Day International) batting statistics from **2008 to 2017**.
-
-The goal is to uncover patterns, trends, and key insights from Kohli's 132 innings — including his run-scoring habits, strike rate trends, dismissal patterns, boundary analysis, and performance across different oppositions and venues.
+A data analysis project built in Python that explores Virat Kohli's batting performance across international cricket matches from 2008 to 2017. The project covers scoring trends, positional efficiency, opponent and venue breakdowns, dismissal patterns, and boundary analysis.
 
 ---
 
-##  Questions This Project Answers
+## Project Overview
 
-- Does he perform better while chasing (Inns 2) or setting a target (Inns 1)?
-- Which teams does he score the most against?
-- How does his strike rate vary across innings?
-- What is his most common dismissal type?
-- How many boundaries (4s and 6s) did he hit in this period?
-- What is the trend of his performance over the years?
-- At which batting position does he perform best?
+This project applies exploratory data analysis techniques to Virat Kohli's match-by-match batting records. The aim is to uncover patterns in performance across different years, batting positions, opponents, venues, and innings using Python libraries for data manipulation and visualization.
 
-## Tech Stack
+---
 
-```
-├── numpy           — numerical computations & array operations
-├── pandas          — data manipulation & cleaning
-├── matplotlib      — base plotting library
-├── seaborn         — statistical visualizations
-└── jupyter         — interactive notebook environment
-```
+## Dataset
 
-## requirements.txt
+- **File:** `Cricket DataSet.csv`
+- **Coverage:** 2008 to 2017, one row per innings
+- **Key columns:**
 
-```
-pandas
-Numpy
-matplotlib
-seaborn
-jupyter
-```
+| Column | Description |
+|---|---|
+| Runs | Runs scored in that innings |
+| SR | Strike rate |
+| Positions | Batting position |
+| Inns | Innings number (1st or 2nd) |
+| Opposition | Opponent team |
+| Ground | Venue of the match |
+| Dismissal | Mode of dismissal |
+| 4s | Number of fours hit |
+| 6s | Number of sixes hit |
+| Start Date | Date of the match |
+| Year | Extracted from Start Date |
+| Boundaries | Engineered column — 4s + 6s combined |
+
+---
+
 ## Analysis Sections
 
 **1. Data Cleaning and Pre-processing**
-Renaming columns, checking for null values, correcting data types, and extracting the year from match dates.
+Renamed columns, checked for null values, corrected data types, and extracted year from match dates for time-based analysis.
 
-**2. Descriptive Analysis**
-Distribution of runs scored across all matches visualized using a histogram to understand scoring frequency.
+**2. Performance Trends**
+Yearly average runs and strike rate plotted using line charts to track overall progression and identify dips and peaks across the decade.
 
-**3. Performance Trends**
-Line plots tracking runs scored and strike rate over time to identify periods of high and low performance.
+**3. Positional Analysis**
+Grouped average runs and strike rate by batting position using bar charts to identify the most and least productive positions.
 
-**4. Positional Analysis**
-Grouping performance metrics by batting position to identify the most and least productive positions.
+**4. Innings Analysis**
+Compared 1st and 2nd innings performance on both runs and strike rate using grouped bar plots.
 
-**5. Innings Analysis**
-Comparing runs and strike rate between the 1st and 2nd innings using grouped averages and box plots.
+**5. Opponent Analysis**
+Average runs and strike rate calculated for each opposition team to identify strongest and weakest matchups.
 
-**6. Opponent Analysis**
-Bar plots and average statistics showing performance against each opposition team, identifying strongest and weakest matchups.
+**6. Venue Analysis**
+Total runs and average strike rate aggregated by ground to find best and worst performing venues.
 
-**7. Venue Analysis**
-Aggregating total runs and average strike rate by ground to determine the best and worst performing venues.
+**7. Dismissal Analysis**
+Frequency and percentage of each dismissal type visualized using a pie chart to identify the most common mode of getting out.
 
-**8. Dismissal Analysis**
-Frequency and percentage breakdown of dismissal types, along with a time-series plot of dismissal patterns.
-
-**9. Boundary Analysis**
-Year-wise and opponent-wise breakdown of fours and sixes, including a combined boundary count feature.
-
-**10. Advanced Insights**
-Statistical comparison of batting positions across innings to detect any structural performance differences.
+**8. Boundary Analysis**
+Year-wise trend of fours and sixes plotted as a line chart, and average boundaries per match calculated for each opponent.
 
 ---
 
 ## Key Findings
 
-- The majority of innings result in scores below 40 runs, though several centuries demonstrate the capacity for high-impact performances.
-- Strike rate fluctuates significantly across matches, reflecting an aggressive but inconsistent batting approach.
-- Performance in the 2nd innings is marginally stronger than in the 1st innings in both runs and strike rate.
-- The highest boundary count was recorded against Sri Lanka; the lowest against Pakistan.
-- Wellington was the strongest venue by runs scored; Adelaide the weakest.
-- Caught dismissals are the most frequent mode of getting out, with no clear time-based pattern.
-- 2011 saw the highest number of fours; 2013 and 2014 had the highest number of sixes.
+- Average runs show an overall upward trend across the decade with a sharp dip around 2015 followed by a strong recovery
+- Strike rate fluctuates across years with no sustained period of dominance
+- Batting positions 3 and 4 yield the highest average runs, making them Kohli's most productive slots
+- Position 6 records an exceptionally high strike rate of around 210, reflecting an aggressive finishing role
+- 2nd innings performance is marginally stronger than 1st innings in both runs and strike rate
+- Most successful opponent is Bangladesh — highest average runs and strike rate
+- Least successful opponent is Pakistan — lowest average runs and strike rate
+- Wellington was the best performing venue; Adelaide was the weakest
+- Caught dismissals account for approximately 63.6% of all dismissals, showing a tendency to get out while playing attacking shots
+- 2011 recorded the highest number of fours; 2013 and 2014 had the highest sixes
+
 ---
-## Screenshots
 
-<img width="1179" height="783" alt="Screenshot (63)" src="https://github.com/user-attachments/assets/62d6ad70-b22b-40ff-814c-83d129f31729" />
-<img width="1234" height="768" alt="Screenshot (64)" src="https://github.com/user-attachments/assets/64bcc1c4-15a5-4c3b-bf7e-c4e7e01ab3c2" />
-<img width="1376" height="692" alt="Screenshot (65)" src="https://github.com/user-attachments/assets/5e2dada7-35b7-435c-a0dc-d4eaa28d75bf" />
+**Libraries used:**
 
-<img width="964" height="721" alt="Screenshot (66)" src="https://github.com/user-attachments/assets/586501b0-fb00-4db6-ab4c-abf49c9d8fbe" />
+```
+├── numpy           — numerical computations and array operations
+├── pandas          — data manipulation and cleaning
+├── matplotlib      — base plotting library
+├── seaborn         — statistical visualizations
+└── jupyter         — interactive notebook environment
