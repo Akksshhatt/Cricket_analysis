@@ -9,10 +9,6 @@
 ---
 # Virat Kohli Cricket Performance Analysis
 
-A data analysis project built in Python that explores Virat Kohli's batting performance across international cricket matches from 2008 to 2017. The project covers scoring trends, positional efficiency, opponent and venue breakdowns, dismissal patterns, and boundary analysis.
-
----
-
 ## Project Overview
 
 This project applies exploratory data analysis techniques to Virat Kohli's match-by-match batting records. The aim is to uncover patterns in performance across different years, batting positions, opponents, venues, and innings using Python libraries for data manipulation and visualization.
