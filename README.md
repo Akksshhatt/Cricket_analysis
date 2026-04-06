@@ -80,6 +80,15 @@ Year-wise trend of fours and sixes plotted as a line chart, and average boundari
 - 2011 recorded the highest number of fours; 2013 and 2014 had the highest sixes
 
 ---
+**requirements.txt**
+
+```
+numpy
+pandas
+matplotlib
+seaborn
+jupyter
+```
 
 **Libraries used:**
 
