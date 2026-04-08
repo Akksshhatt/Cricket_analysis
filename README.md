@@ -98,3 +98,43 @@ jupyter
 ├── matplotlib      — base plotting library
 ├── seaborn         — statistical visualizations
 └── jupyter         — interactive notebook environment
+
+```
+
+## ⚙️ How to Run This Project
+
+### 1. Clone the repository
+
+```
+https://github.com/Akksshhatt/Cricket_analysis.git
+
+```
+
+### 2. (Optional) Create a virtual environment
+
+```bash
+python -m venv venv
+source venv/bin/activate        # macOS/Linux
+venv\Scripts\activate           # Windows
+```
+
+### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Launch Jupyter Notebook
+
+```bash
+jupyter notebook cricket_analysis.ipynb
+```
+
+### 5. Run all cells
+
+In the Jupyter interface, go to **Kernel → Restart & Run All** to execute the full analysis from top to bottom.
+
+> **Note:** Make sure `Cricket DataSet.csv` is placed in the same directory as the notebook before running.
+
+---
+
