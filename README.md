@@ -6,12 +6,16 @@
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Completed-00cc44?style=for-the-badge)
 
+
 ---
 # Virat Kohli Cricket Performance Analysis
 
 ## Project Overview
 
 This project applies exploratory data analysis techniques to Virat Kohli's match-by-match batting records. The aim is to uncover patterns in performance across different years, batting positions, opponents, venues, and innings using Python libraries for data manipulation and visualization.
+
+<img width="2600" height="2604" alt="dashboard_pro" src="https://github.com/user-attachments/assets/845624b6-faba-4d70-936f-3409b9e9eb64" />
+
 
 ---
 
