@@ -147,7 +147,7 @@ This project applies exploratory data analysis techniques to Virat Kohli's match
 - Visualized with a pie chart
 
 **Visual:**
-- 🥧 Pie chart — Dismissal % Distribution
+-  Pie chart — Dismissal % Distribution
 
 **Insight:**
 - **Caught** is the most common dismissal mode at ~63.6%, suggesting Kohli frequently plays attacking shots
