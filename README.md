@@ -14,7 +14,7 @@
 
 This project applies exploratory data analysis techniques to Virat Kohli's match-by-match batting records. The aim is to uncover patterns in performance across different years, batting positions, opponents, venues, and innings using Python libraries for data manipulation and visualization.
 
-<img width="2600" height="2604" alt="dashboard_pro" src="https://github.com/user-attachments/assets/845624b6-faba-4d70-936f-3409b9e9eb64" />
+<img width="3804" height="6459" alt="cricket_dashboard_v3" src="https://github.com/user-attachments/assets/d4d86cca-dc8c-458d-bdf4-4e11360a54ef" />
 
 
 ---
