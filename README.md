@@ -103,6 +103,24 @@ This project applies exploratory data analysis techniques to Virat Kohli's match
 | Boundary Peak | 4s peaked in 2011; 6s in 2013–2014 |
 
 ---
+## Key Insights
+
+1. **Kohli is a top-order specialist** — His average runs drop significantly outside positions 3 and 4. Teams benefit most when he bats early, giving him time to build a big innings.
+
+2. **He is a world-class chaser** — His runs and strike rate are both higher in the 2nd innings, indicating he performs better under pressure while chasing targets.
+
+3. **His game evolved post-peak** — After his peak year (2016), his raw average slightly declined but his strike rate and sixes increased, showing a shift from pure accumulation to a more aggressive, match-winning style.
+
+4. **Venue and conditions matter** — Grounds like Dhaka and Chennai consistently bring out his best, while venues like Dambulla clearly challenge him. This could reflect pitch type, conditions, or historical form.
+
+5. **Aggressive shot-making is a double-edged sword** — The caught dismissal rate of ~63.6% shows that his attacking intent, while effective, also exposes him to risk. Bowled and LBW are rare, meaning he reads the ball well but plays in the air often.
+
+6. **Bangladesh brings out his best** — Kohli consistently dominates against Bangladesh across both runs and strike rate, making them his most favorable opposition over the course of his career.
+
+7. **The 2015 dip was temporary** — Despite a notable slump in average runs around 2015, Kohli recovered strongly, suggesting excellent mental resilience and adaptability.
+
+8. **Batting position is the biggest performance driver** — More than venue or opponent, where Kohli bats in the order has the strongest association with his score, underlining the importance of team management placing him in his optimal role.
+
 ---
 **requirements.txt**
 
